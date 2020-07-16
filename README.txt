@@ -1,10 +1,7 @@
 1. Enviroment: nodejs@12.x
 2. Install framework Expo:
 	> npm install -g expo-cli
-3. Create new expo project
-	> expo init project
-		> choose plank project
-4. Copy code to root folder of project
+
 5. Open terminal in project, command:
 	> npm install
 	> expo start
