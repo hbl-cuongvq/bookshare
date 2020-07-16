@@ -1,26 +1,24 @@
 {
   "expo": {
-    "name": "bookShare",
-    "slug": "bookShare",
+    "name": "Book share",
+    "icon": "./assets/logo.png",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "slug": "your-app-slug",
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.cuongcompany.bookshare",
+      "buildNumber": "1.0.0"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "android": {
+      "package": "com.cuongcompany.bookshare",
+      "versionCode": 1,
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyCpTosHsAp1To2qFCX4BCiwAJ8nlYlk-lM",
+          "certificateHash": "DA13928FD776E0F4B39A55E4F2DD04AE2EEBF31F"
+        }
+      }
+    },
+    "facebookAppId": "969510633494474",
+    "facebookDisplayName": "shareStory"
   }
 }
